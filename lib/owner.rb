@@ -20,4 +20,8 @@ class Owner
     @@all = []
   end
   
+  def say_species
+    @species
+  end
+  
 end
