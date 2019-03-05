@@ -60,5 +60,6 @@ class Owner
     @pets.values.flatten.each do |pet|
       pet.mood = "nervous"
     end
+    @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 end
